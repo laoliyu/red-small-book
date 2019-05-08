@@ -2,8 +2,7 @@
 <view class="mine">
     <!-- 头像 -->
     <view class="header_img">
-    <image src="../../images/psb.jpg" alt=""/>
-      
+        <image src="../../images/psb.jpg" alt="" />
     </view>
     <!-- 个人信息 -->
     <view class="mine-messsage">
