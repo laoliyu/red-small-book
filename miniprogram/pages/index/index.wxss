@@ -1,0 +1,76 @@
+miniprogram/pages/iindex/index
+/* 搜素框的 */
+ .wxss .search {
+  width: 80%;
+}
+
+.search_arr {
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+
+.search_arr input {
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+
+.bc_text {
+  line-height: 68rpx;
+  height: 68rpx;
+  margin-top: 34rpx;
+  margin-left: 34rpx;
+  
+}
+
+.sousuo {
+  margin-left: 15rpx;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+  border: 1px solid #d0d0d0;
+  border-radius: 10rpx;
+}
+
+.page_row {
+  display: flex;
+  flex-direction: row
+}
+
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  /* left: 25rpx;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+  text-align: center; */
+}
+
+/* 横向滑动块 */
+
+.header .cont{
+  white-space: nowrap;
+  position: relative;
+  height: 90rpx;
+  overflow:auto;
+  width:750rpx;
+
+}
+.header .cont .list view{
+ width: 120rpx;
+ display: inline-block;
+ text-align: center;
+font-size: 30rpx;
+}
+.cur{
+  position: absolute;
+  left: 0;
+  bottom: 30rpx;
+  width: 70rpx;
+  height: 6rpx;
+  background: red;
+  margin-left: 25rpx;
+  transition: .5s all ease;
+}

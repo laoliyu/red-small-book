@@ -1,0 +1,31 @@
+<!-- miniprogram/pages/personal/personal.wxml -->
+<view class="mine">
+    <!-- 头像 -->
+    <view class="header_img">
+    <image src="../../images/psb.jpg" alt=""/>
+      
+    </view>
+    <!-- 个人信息 -->
+    <view class="mine-messsage">
+        <!-- 个人爱好 -->
+        <view class="mine-hoby">
+            <ul class="number">
+                <li class="fir">0</li>
+                <li class="sec">0</li>
+                <li class="thir">0</li>
+            </ul>
+            <ul class="descr">
+                <li class="one">关注</li>
+                <li class="two">粉丝</li>
+                <li class="thr">获赞与收藏</li>
+            </ul>
+        </view>
+        <!-- 个人资料的编辑 -->
+        <view class="writing-message">
+            <button class="message">编辑资料</button>
+            <button class="reset">
+                <image src="../../images/reset.png" alt="" />
+            </button>
+        </view>
+    </view>
+</view>

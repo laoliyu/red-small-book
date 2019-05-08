@@ -1,0 +1,34 @@
+/* miniprogram/pages/personal/personal.wxss */
+
+.mine {
+    width: 100%;
+    height: 100%;
+   
+}
+
+.header_img image {
+    margin-top: 30rpx;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    margin-left: 30rpx;
+}
+
+.mine-messsage {
+    width: 140rpx;
+    height: 140rpx;
+    margin-left: 150rpx;
+    top: 30rpx;
+}
+
+.mine-hoby {
+    width: 60rpx;
+    height: 60rpx;
+}
+
+.number {
+    display: inline;
+    padding: 20rpx;
+    letter-spacing: 60rpx;
+    top: 30rpx;
+}

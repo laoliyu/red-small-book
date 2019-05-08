@@ -1,0 +1,23 @@
+<!-- miniprogram/pages/group/group.wxml -->
+<view class='page_row' bindtap="suo">
+    <view class="search">
+        <view class="df search_arr">
+            <icon class="searchcion" size='20' type='search' style="text-align:center; vertical-align:middel;"></icon>
+            <input class="" disabled placeholder="请输入关键字" value="{{searchValue}}" />
+        </view>
+    </view>
+    <view class='sousuo'>搜索</view>
+</view>
+<!-- 导航栏 -->
+<view class="header">
+    <scroll-view class="scroll-view_H" scroll-x="{{true}}">
+        <view class="cont">
+            <view class="list">
+                <view class="green" wx:for="{{goods}}" wx:key="{{index}}" bindtap='fnclick'>
+                    {{item}}
+                </view>
+            </view>
+            <view class="cur" style='left:{{left}}px'></view>
+        </view>
+    </scroll-view>
+</view>
